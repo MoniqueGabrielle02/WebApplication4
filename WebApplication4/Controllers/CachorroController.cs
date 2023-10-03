@@ -67,7 +67,7 @@ namespace WebApplication4.Controllers
      
         public ActionResult Delete(int id)
         {
-            return View();
+            return View(CachorroModel.Criarlista()[id]);
         }
 
        

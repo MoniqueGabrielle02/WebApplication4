@@ -39,9 +39,9 @@
             </td>
             
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Edit", "Edit", new { /*id = */ }) |
                 @Html.ActionLink("Details", "Details", new { id = ((List<CachorroModel>)Model).IndexOf(item) }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Delete", "Delete", new { id = ((List<CachorroModel>)Model).IndexOf(item) })
             </td>
         </tr>
 }
